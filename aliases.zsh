@@ -52,6 +52,19 @@ alias dce='edit docker-compose.yml'
 alias dcl='docker-compose ps'
 alias dci='docker-compose images'
 
+# Find
+alias fd='fd --color always'
+alias fda='fd --absolute-path'
+alias fdc='fd --ignore-case'
+alias fde='fd --extension'
+alias fdf='fd --follow'
+alias fdh='fd --hidden' 
+alias fdg='fd --glob'
+alias fdo='fd --owner'
+alias fds='fd --size'
+alias fdx='fd --exclude'
+alias find='fd'
+
 # Git
 alias gst='git status'
 alias ga='git add'
