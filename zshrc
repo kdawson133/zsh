@@ -19,6 +19,7 @@ source "$ZDOTDIR/plugins/zsh-async/async.zsh"
 # Completions
 rip_comp "jonathanlamar/git-zsh-completion"
 # Aliases
+rip_file aliases.zsh
 OS=$(uname)
 if [[ $OS == 'Darwin' ]]
 then
@@ -36,11 +37,8 @@ rip_plug "kdawson133/sublime-merge"
 rip_plug "mafredri/zsh-async"
 # Themes
 rip_theme "sindresorhus/pure"
-# Key Bindings
-# See Options
-# Starship activation
-#eval "$(starship init zsh)"
+# Key Bindings - see options.zsh
 # rbenv
 eval "$(rbenv init -)"
 # Directory Colours
-#test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
+test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
