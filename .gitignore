@@ -1,0 +1,6 @@
+completions/
+plugins/
+themes/
+.zcompdump
+.zhistory
+.p10k.zsh
